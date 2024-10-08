@@ -3,6 +3,7 @@
 // to see output of this program type the following command in terminal
 // php -S 0.0.0.0:8080
 
+//Q1
 class Car {
     public $make;
     public $model;
@@ -20,7 +21,7 @@ class Car {
     }
 }
 
-
+//Q2
 class Animal {
     public function makeSound() {
         return "Some sound";
@@ -39,7 +40,7 @@ class Cat extends Animal {
     }
 }
 
-
+//Q3
 trait Logger {
     public function log($message) {
         echo "Log: $message";
@@ -62,6 +63,7 @@ class Order {
     }
 }
 
+//Ans 3
 $user = new User();
 $user->createUser("John Doe"); 
 echo "<br>";
@@ -71,7 +73,7 @@ $order->createOrder(1234);
 
 
 
-
+//Ans 2
 $dog = new Dog();
 echo $dog->makeSound(); 
 echo "<br>";
@@ -81,6 +83,7 @@ echo $cat->makeSound();
 
 echo "<br>";
 
+//Ans 1
 $car1 = new Car("Toyota", "Corolla", 2020);
 $car1->displayDetails(); 
 $car2 = new Car("Suzuki", "Mehran", 2010);
