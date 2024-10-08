@@ -1,6 +1,6 @@
 <?php
 
-// to see output of this function type the following command in terminal
+// to see output of this program type the following command in terminal
 // php -S 0.0.0.0:8080
 
 class Car {
